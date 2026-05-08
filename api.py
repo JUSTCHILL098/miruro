@@ -24,7 +24,7 @@ app.add_middleware(
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)", "Referer": "https://www.miruro.online/"}
 ANILIST_URL = "https://graphql.anilist.co"
-MIRURO_PIPE_URL = "https://www.miruro.online/api/secure/pipe"
+MIRURO_PIPE_URL = "https://www.miruro.to/api/secure/pipe"
 
 def _proxy_img(url: str) -> str:
     # Proxy removed — return original image URL
